@@ -58,7 +58,7 @@ $("#connect").click(async function () {
 
 $("#plus").click(function () {
   let value = $("#count").html();
-  if (value == 10) return;
+  if (value == 2) return;
   value = Number(value) + 1;
   $("#count").html(value);
   $("#price").html((value * 0.2).toFixed(1));
